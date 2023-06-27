@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <style>
+        .wrapper{
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+        }
+        .box1{
+ height: 30px;
+  width: 100px;
+  background: rgb(22, 235, 250);
+        }
+        .box2{
+ height: 30px;
+  width: 100px;
+  background: rgb(22, 235, 250);
+        }
+        .box3{
+ height: 30px;
+  width: 100px;
+  background: rgb(22, 235, 250);
+        }
+        .box4{
+ height: 30px;
+  width: 100px;
+  background: rgb(22, 235, 250);
+        }
+        .box5{
+ height: 30px;
+  width: 100px;
+  background: rgb(22, 235, 250);
+        }
+        .nav {
+            /* background-color: aqua; */
+            padding: 10px;
+            font-size: 20px;
+           
+        }
+        .box:hover{
+transform: rotate(360deg);
+ /* transition-duration: 1.25s; */
+ border-radius: 50px;
+ background-color: black;
+
+}
+        .nav li {
+            display: inline;
+            padding: 0.5px;
+        }
+
+        .nav a :hover {
+            color: black;
+        }
+
+        .nav a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="https://www.w3schools.com/"target="_blank">w3schools</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <div class="wrapper">
+                    <div class="box box1">
+                <li>
+                    <a href="https://www.w3schools.com/html/default.asp" target="_blank">HTML</a>
+               </li>
+               </div>
+                <div class="box box2">
+                     <li>
+                        <a href="https://www.w3schools.com/css/default.asp" target="_blank">CSS</a>
+                    </li>
+                </div>
+                <div class="box box3">
+                    <li>
+                        <a href="https://www.w3schools.com/js/default.asp" target="_blank">javascript</a>
+                    </li>
+                </div>
+                <div class="box box4">
+                    <li>
+                        <a href="https://www.w3schools.com/sql/default.asp" target="_blank">sql</a>
+                    </li>
+                </div>
+                <div class="box box5">
+                    <li>
+                        <a href="https://www.w3schools.com/python/default.asp" target="_blank">python</a>
+                    </li>
+                </div>
+            </div>
+        </ul>
+        </div>
+    </nav>
+
+
+</body>
+</html>
